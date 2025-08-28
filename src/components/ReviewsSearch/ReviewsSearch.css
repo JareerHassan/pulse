@@ -1,0 +1,111 @@
+.ReviewsSearch {
+  width: 80%;
+  text-align: center;
+  margin: 1.25rem auto;
+}
+
+input[type="text"] {
+  height: 47px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.innerWidth {
+  width: 25%;
+}
+
+.filterRecent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.filterRecent p {
+  width: 50%;
+  height: 39px;
+}
+
+.filterRecent input {
+  height: 39px;
+  width: 65%;
+}
+
+.advanceWidth {
+  width: 100%;
+}
+
+label {
+  opacity: 0.8;
+}
+
+.advance p {
+  width: 100%;
+  color: black;
+  font-weight: 500;
+}
+
+.advance .box {
+  width: 100%;
+}
+
+@media (max-width: 1250px) and (min-width: 1080px) {
+  /* .innerWidth {
+    width: 50% !important
+  } */
+
+  .width20 {
+    width: 20% !important;
+  }
+
+  .width30 {
+    width: 30% !important;
+  }
+}
+
+@media (max-width: 1080px) and (min-width: 800px) {
+  .width20 {
+    width: 30% !important;
+  }
+  .width30 {
+    width: 40% !important;
+  }
+  .filterRecent {
+    margin-top: 25px;
+  }
+  .advanceWidth {
+    width: 40%;
+  }
+  .FilterSearch {
+    width: 20%;
+  }
+  .buttonFilterSearch {
+    height: 33px !important;
+    width: 80px !important;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 430px) {
+  .width20 {
+    width: 40% !important;
+  }
+  .width30 {
+    width: 60% !important;
+  }
+  .ReviewsSearch {
+    width: 100% !important;
+  }
+}
+@media (max-width: 430px) {
+  .width20 {
+    width: 50% !important;
+  }
+  .lookingForwhat {
+    width: 100% !important;
+  }
+  .filterRecent {
+    width: 80%;
+  }
+  .ReviewsSearch {
+    width: 100% !important;
+  }
+}

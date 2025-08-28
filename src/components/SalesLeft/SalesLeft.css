@@ -1,0 +1,25 @@
+aside h3 {
+  opacity: 0.7;
+}
+
+small img {
+  width: 25px;
+  height: 30px;
+  margin-left: 8px;
+}
+
+.rattings {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+hr {
+  color: #b0bac1;
+  margin: 16px 0px;
+}
+
+@media (max-width: 1200px) {
+  .leftSide {
+    display: none;
+  }
+}

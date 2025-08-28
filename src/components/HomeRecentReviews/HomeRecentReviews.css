@@ -1,0 +1,51 @@
+.icon {
+  height: 14px;
+  align-self: center;
+  margin-right: 8px;
+  margin-bottom: 14px;
+}
+
+.bussiness {
+  padding: 15px 20px 0px 20px;
+  border-bottom: 0.3px solid #e3e2e2;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.cardTextOuterBorderLess {
+  padding: 0px 20px;
+}
+
+.ratting {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-right: 10px;
+}
+
+.ratting img {
+  font-size: 12px;
+  margin-left: 3px;
+}
+
+.rattingOuter {
+  padding: 0px 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.OfferOuter p {
+  margin-bottom: 0px;
+  margin-right: 20px;
+}
+
+.review-title {
+  padding: 10px 20px 0px 20px;
+  font-weight: 600;
+}
+
+.OfferOuter .categoryText {
+  opacity: 0.8;
+  font-size: 12px;
+}

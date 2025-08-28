@@ -1,0 +1,190 @@
+.homeCatorgies {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+.context {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 1.25rem auto;
+  margin-top: 4rem;
+}
+
+.btn-outline-danger {
+  border-color: #e61616;
+  border-radius: 0%;
+  background-color: #fff;
+  color: #e61616;
+  width: 6.25rem;
+}
+
+.btn-outline-danger:hover {
+  background-color: #e61616;
+  color: #fff;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.cardIcon {
+  width: 30px;
+  height: 30px;
+  margin-right: 4px;
+}
+
+.crad-caption {
+  padding-left: 10px;
+}
+
+.cardDesign {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 40px;
+  align-items: center;
+  box-shadow: 0px 0px 6px #00000033;
+  border-radius: 5px;
+  height: 65px;
+  margin: 5px 5px;
+}
+
+.cardHead .col-lg-3,
+.cardHead .col-lg-3,
+.cardHead .col-md-4,
+.cardHead .col-sm-6 {
+  padding: 0px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.margin-0 {
+  margin: 0px;
+}
+
+@media (max-width: 750px) {
+  .homeCatorgies {
+    margin-top: -70px;
+  }
+  .crad-caption {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .cardDesign {
+    flex-direction: column;
+    padding: 15px 5px 0px 5px;
+    justify-content: center;
+    height: 90px;
+    text-align: center;
+  }
+
+  .context {
+    width: 100% !important;
+  }
+
+  .context h5 {
+    width: 75%;
+  }
+
+  .context button {
+    width: 25%;
+  }
+  .crad-caption {
+    align-self: center !important;
+    padding: 0px !important;
+  }
+
+  .cardHead {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .cardDesign {
+    flex-direction: column;
+    padding: 15px 5px 0px 5px;
+    /* width: 150px; */
+    justify-content: center;
+    height: 90px;
+    text-align: center;
+  }
+
+  .context {
+    width: 100% !important;
+  }
+
+  .cardHead {
+    width: 100% !important;
+  }
+}
+
+.context .col-sm-6 {
+  width: 60%;
+}
+
+/* -----------------------ALL CATRGORY CSS----------------- */
+.allCategoriesCardsOuter {
+  gap: 10px;
+  columns: 280px 4;
+  column-gap: 16px;
+  column-count: 4;
+}
+
+.AllCatregory {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.allCategoriesCard {
+  padding: 0px;
+  border: 0.3px solid #d1d1d1;
+  /* display: flex; */
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 20%;
+  margin: 20px;
+  height: fit-content;
+
+  width: 100%; /* Occupy 100% of column width */
+  margin-bottom: 10px;
+  /* background-color: #f0f0f0; */
+  /* padding: 20px; */
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.allCategoriesCardHeader {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: rgb(243 166 199); */
+}
+
+.allCategoriesCardHeader > img {
+  height: 20px;
+}
+.allCategoriesCardBody {
+  padding: 0px 20px;
+}
+
+.allCategoriesCardBody p {
+  margin: 10px 0px 0px 0px;
+  border-bottom: 0.3px solid #d1d1d1;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+.allCategoriesCardHeader p {
+  margin: 10px 10px 0px 10px;
+  opacity: 0.9;
+  font-weight: 600;
+}

@@ -1,0 +1,42 @@
+
+.ratingsRecentReviews img
+{
+    width: 11px;
+    height: 10px;
+}
+body {
+    background-color: #ffffff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .dateTime
+  {
+    color: #484848;
+    opacity: 0.75;
+  }
+  .bg-custom
+  {
+    background-color:#C6C6C6;
+    opacity: 0.6;
+  }
+  .bbq
+  {
+    top: 335px;
+left: 1679px;
+height: 21px;
+  }
+  
+  .font-1 {
+    font-size: 1rem;
+  }
+  
+  .font-2 {
+    font-size: 0.9rem;
+  }
+  
+  .font-3 {
+    font-size: 0.75rem;
+  }
+  .font-5 {
+    font-size: 0.6rem;
+  }
+

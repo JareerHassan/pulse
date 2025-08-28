@@ -1,0 +1,102 @@
+.ReviewWrite {
+  margin-top: 60px;
+  width: 90%;
+  margin: auto;
+}
+
+.form {
+  display: flex;
+}
+
+.what {
+  width: 50%;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.where {
+  width: 50%;
+}
+
+.form input[type="text"] {
+  border: 0.3px solid #d1d1d1;
+  opacity: 1;
+  height: 60px;
+}
+
+.where input[type="text"] {
+  border-radius: 0px 5px 5px 0px;
+  border-left: none;
+}
+
+.where button {
+  margin-left: -30%;
+  background-color: #e61616;
+  width: 20%;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+}
+
+.where button > img {
+  width: 14px;
+  margin: 0px 2px 2px 0px;
+}
+
+.form input::placeholder {
+  opacity: 0.7;
+  color: black;
+}
+
+.SearchSide {
+  margin: auto;
+  margin-top: 2%;
+}
+
+.PeopleColab {
+  height: 200px;
+}
+
+.IsVisited {
+  margin: auto;
+  margin-top: 20px;
+}
+
+.PlacesCards {
+  height: 200px;
+  display: flex;
+  border: 0.3px solid #d1d1d1;
+  border-radius: 5px;
+  margin: 10px;
+  width: 45%;
+
+  /* width: 100%; */
+}
+
+.PlacesCards > img {
+  height: 196px;
+  width: 40%;
+  border-right: 0.3px solid #d1d1d1;
+}
+
+.PlacesCardsContent {
+  width: 60%;
+  margin: auto;
+  margin-left: 20px;
+}
+
+.rattingsStart {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.rattingsStart img {
+  width: 25px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .PlacesCards {
+    width: 45%;
+  }
+}

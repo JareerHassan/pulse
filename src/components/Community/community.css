@@ -1,0 +1,75 @@
+/* Community Right */
+
+* {
+    font-family: "Segoe UI", Arial, sans-serif;
+
+}
+
+.font-1
+{
+    font-size: 15px;
+}
+.font-2
+{
+    font-size: 13px;
+}
+.font-3
+{
+    font-size: 12px;
+}
+.text-success
+{
+    color: #70F32F !important;
+}
+
+.community-right-section h4 {
+    /* font: normal normal 600 24px/32px Segoe UI; */
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #484848;
+}
+
+.community-right-section .card-text {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #7C7C7C;
+}
+
+.prfile-img {
+    width: 55px;
+    height: 55px;
+}
+
+.member-card
+{
+
+border-radius: 5px;
+}
+
+.member-card .card-title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 21px;
+    color: #1D1C1C;
+}
+
+.member-card .card-text {
+    font: normal normal 600 12px/16px Segoe UI;
+    letter-spacing: 0px;
+    color: #70F32F;
+}
+
+
+/* Community Middle */
+.shadoww
+{
+    box-shadow: 0px 0px 6px #00000033;
+    border: none !important;
+    border-radius: 5px;
+}
+.post-text {
+    font-size: 12px;
+    color: #1D1C1C;
+}

@@ -1,0 +1,112 @@
+.row .inner {
+  width: 33.33%;
+}
+
+.filterOuter > h4 {
+  width: 65%;
+}
+
+.filter {
+  width: 35%;
+}
+@media (max-width: 1200px) {
+  .saleCards {
+    width: 48% !important;
+  }
+  .saleMiddle {
+    width: 67% !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .filterOuter > h4 {
+    width: 60% !important;
+  }
+  .filter {
+    width: 40% !important;
+  }
+}
+
+@media (max-width: 780px) {
+  .maps {
+    display: none;
+  }
+  .saleMiddle {
+    width: 100% !important;
+  }
+  .searchButton {
+    width: 65px !important;
+    height: 34px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .filterOuter > h4 {
+    width: 50% !important;
+  }
+  .filter {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .filterOuter > h4 {
+    width: 40% !important;
+  }
+  .filter {
+    width: 60% !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .filterOuter > h4 {
+    width: 40% !important;
+  }
+  .filter {
+    width: 60% !important;
+  }
+
+  .advance {
+    width: 68% !important;
+  }
+
+  .advance .box {
+    width: 115% !important;
+  }
+
+  .saleCards {
+    width: 90% !important;
+    margin: auto !important;
+    margin-top: 10px !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .lookingFor {
+    width: 40% !important;
+  }
+  .Alllocations,
+  .Allcategories {
+    width: 30% !important;
+  }
+}
+
+@media (max-width: 950px) and (min-width: 780px) {
+  .lookingFor {
+    width: 50% !important;
+  }
+  .Alllocations,
+  .Allcategories {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .lookingFor {
+    width: 50% !important;
+  }
+  .Alllocations,
+  .Allcategories {
+    width: 50% !important;
+  }
+}
