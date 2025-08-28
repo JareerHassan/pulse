@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JareerHassan/pulse.git/static/css/main.555b5b94.css",
-    "main.js": "/JareerHassan/pulse.git/static/js/main.fcd082ef.js",
+    "main.js": "/JareerHassan/pulse.git/static/js/main.7521b0c0.js",
     "static/js/787.d515b6f6.chunk.js": "/JareerHassan/pulse.git/static/js/787.d515b6f6.chunk.js",
     "static/media/chicken.jpg": "/JareerHassan/pulse.git/static/media/chicken.513ba362221387b990cb.jpg",
     "static/media/BannerImage1.png": "/JareerHassan/pulse.git/static/media/BannerImage1.e37d2e4168a6ea786d39.png",
@@ -55,11 +55,11 @@
     "static/media/star.svg": "/JareerHassan/pulse.git/static/media/star.488b8d7fd0d73ea5c12fcfecf9072674.svg",
     "static/media/facebook.svg": "/JareerHassan/pulse.git/static/media/facebook.5f619bdfbdcc6a1b3aabc44c099de31d.svg",
     "main.555b5b94.css.map": "/JareerHassan/pulse.git/static/css/main.555b5b94.css.map",
-    "main.fcd082ef.js.map": "/JareerHassan/pulse.git/static/js/main.fcd082ef.js.map",
+    "main.7521b0c0.js.map": "/JareerHassan/pulse.git/static/js/main.7521b0c0.js.map",
     "787.d515b6f6.chunk.js.map": "/JareerHassan/pulse.git/static/js/787.d515b6f6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.555b5b94.css",
-    "static/js/main.fcd082ef.js"
+    "static/js/main.7521b0c0.js"
   ]
 }
